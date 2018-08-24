@@ -1,0 +1,11 @@
+[package]
+name = "vst-sine"
+version = "0.1.0"
+authors = ["Marcus Bitzl <marcus@bitzl.com>"]
+
+[dependencies]
+vst = "0.0.2"
+
+[lib]
+name = "vstsine"
+crate-type = ["cdylib"]
